@@ -1,0 +1,72 @@
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1px 0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  thead {
+    background-color: #999999;
+    color: #000000;
+  }
+  
+  .encabezado {
+    border: 1px solid #696969;
+    padding: 2px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #313131;
+  } 
+
+  .pie {
+    border: 1px solid #000000;
+    padding: 2px;
+    text-align: left;
+    color: #ffffff;
+    background-color: #7c7c7c;
+  } 
+  
+  td {
+    border: 1px solid #000000;
+    padding: 1px;
+    text-align: center;
+    color: #000000;
+    background-color: #fbff00;
+    font-size: 10px;
+  }
+
+  .baja {
+    border: 1px solid #000000;
+    padding: 1px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ff0000;
+    font-size: 10px;
+  }
+
+  .otra {
+    border: 1px solid #000000;
+    padding: 1px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00a2ff;
+    font-size: 10px;
+  }
+  
+  /* Estilos para los botones */
+  button {
+    background-color: #6bca12; /* Cambia el color de fondo */
+    color: white; /* Cambia el color del texto */
+    padding: 10px 20px; /* Aumenta el espacio alrededor del texto */
+    border: 1px solid #000; /* Elimina el borde */
+    border-radius: 5px; /* Agrega bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Agrega una transición */
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
