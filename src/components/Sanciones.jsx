@@ -5,21 +5,20 @@ import html2canvas from "html2canvas";
 import "./Sanciones.css";
 
 function Sanciones() {
+  const tablaRef = useRef(null);
 
-    const tablaRef = useRef(null);
-
-    function capturarTabla() {
-        const tabla = tablaRef.current;
-        html2canvas(tabla).then(function (canvas) {
-          const pngUrl = canvas.toDataURL("image/png");
-          const downloadLink = document.createElement("a");
-          downloadLink.href = pngUrl;
-          downloadLink.download = "Sanciones.png";
-          document.body.appendChild(downloadLink);
-          downloadLink.click();
-          document.body.removeChild(downloadLink);
-        });
-      }
+  function capturarTabla() {
+    const tabla = tablaRef.current;
+    html2canvas(tabla).then(function (canvas) {
+      const pngUrl = canvas.toDataURL("image/png");
+      const downloadLink = document.createElement("a");
+      downloadLink.href = pngUrl;
+      downloadLink.download = "Sanciones.png";
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+    });
+  }
 
   return (
     <>
@@ -195,13 +194,19 @@ function Sanciones() {
           </tr>
           <tr>
             <td className="otra">21</td>
-            <td className="otra">Por falta de cumplimiento ruta <br></br> Carrizal - San miguel</td>
-            <td className="otra" colSpan={3}>Se para camioneta al día siguiente</td>
+            <td className="otra">
+              Por falta de cumplimiento ruta <br></br> Carrizal - San miguel
+            </td>
+            <td className="otra" colSpan={3}>
+              Se para camioneta al día siguiente
+            </td>
           </tr>
           <tr>
             <td className="otra">22</td>
             <td className="otra">Falta</td>
-            <td className="otra" colSpan={3}>Hablar con directiva</td>
+            <td className="otra" colSpan={3}>
+              Hablar con directiva
+            </td>
           </tr>
         </tbody>
         <tfoot>
@@ -222,13 +227,18 @@ function Sanciones() {
           </tr>
           <tr>
             <td colSpan={5} className="pie">
-              <strong>Nota:</strong> Todo conductor posturero que incurra en cualquier sanción de
-              las antes mencionadas, causara baja definitiva dentro de la ruta
+              <strong>Nota:</strong> Todo conductor posturero que incurra en
+              cualquier sanción de las antes mencionadas, causara baja
+              definitiva dentro de la ruta
             </td>
           </tr>
         </tfoot>
       </table>
-      <button onClick={capturarTabla}>Capturar tabla</button>
+      <div className="contenedor-boton">
+        <button onClick={capturarTabla} className="boton-capturar">
+          Capturar Sanciones
+        </button>
+      </div>
     </>
   );
 }
