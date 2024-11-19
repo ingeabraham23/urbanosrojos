@@ -1,0 +1,35 @@
+.tabla-sanitarios{
+    border-collapse: separate;
+    border: 1px solid black;
+}
+
+.encabezado-sanitarios{
+    background-color: lightgreen;
+    color: #000000;
+    font-size: 14px;
+    text-align: center;
+}
+
+.nota2-sanitarios{
+    background-color: lightblue;
+    color: #000000;
+    font-size: 12px;
+    text-align: left;
+    border: 0px solid black;
+}
+
+.nota3-sanitarios{
+    background-color: lightsalmon;
+    color: #000000;
+    font-size: 12px;
+    text-align: left;
+    border: 0px solid black;
+}
+
+.copyright-sanitarios{
+    background-color: #ffffff;
+    border: 0px solid black;
+    color: #000000;
+    font-size: 10px;
+    text-align: center;
+}

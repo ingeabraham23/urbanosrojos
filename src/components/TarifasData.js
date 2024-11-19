@@ -12,33 +12,14 @@ const TarifasData = [
     precio: "$ 9.00",
   },
   {
-    lugar: "San Isidro",
+    lugar: "San Isidro, Calicapan, Sosa Escuela, Tezotepec, Coahuixco, Talzintan",
     precio: "$ 9.00",
   },
-  {
-    lugar: "Calicapan",
-    precio: "$ 9.00",
-  },
-  {
-    lugar: "Sosa Escuela",
-    precio: "$ 9.00",
-  },
-  {
-    lugar: "Tezotepec",
-    precio: "$ 9.00",
-  },
-  {
-    lugar: "Coahuixco",
-    precio: "$ 9.00",
-  },
-  {
-    lugar: "Talzintan",
-    precio: "$ 9.00",
-  },
+
   ////////////////////////
   {
     lugar: "Huapaltepec",
-    precio: "$ 11.00",
+    precio: "$ 15.00",
   },
   ////////////////////////
   {
@@ -63,30 +44,10 @@ const TarifasData = [
   },
   ////////////////////////////////
   {
-    lugar: "Pajaco",
-    precio: "$ 10.00",
-  },
-  {
     lugar: "Tacopan",
     precio: "$ 10.00",
   },
-  {
-    lugar: "Calanorte",
-    precio: "$ 11.00",
-  },
   /////////////////////////////
-  {
-    lugar: "Carrizal",
-    precio: "$ 8.50",
-  },
-  {
-    lugar: "Carrizal - Fresnillo",
-    precio: "$ 9.50",
-  },
-  {
-    lugar: "Carrizal - Hospital",
-    precio: "$ 10.50",
-  },
   {
     lugar: "San Miguel Capulines",
     precio: "$ 8.50",
@@ -108,10 +69,6 @@ const TarifasData = [
     precio: "$ 10.50",
   },
   //////////////////////////////////
-  {
-    lugar: "Xoloateno",
-    precio: "$ 9.00",
-  },
   {
     lugar: "PERSONAS DE LA TERCERA EDAD",
     precio: "$ 4.00",
