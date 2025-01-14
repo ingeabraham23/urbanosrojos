@@ -5,6 +5,7 @@ import {
     faCarBurst,
     faChurch,
     faCommentsDollar,
+    faFireFlameCurved,
     faHandsPraying,
     faInfo,
     faMountain,
@@ -15,6 +16,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faClockFour } from '@fortawesome/free-solid-svg-icons/faClockFour';
+import { faRoadBridge } from '@fortawesome/free-solid-svg-icons/faRoadBridge';
 
 const navigationItems = [
   { path: '/', icon: faBan, label: 'Sanciones' },
@@ -29,6 +31,8 @@ const navigationItems = [
   { path: '/tarjetas', icon: faInfo, label: 'Tarjetas' },
   { path: '/tiempos', icon: faClockFour, label: 'Tiempos' },
   { path: '/virgen', icon: faHandsPraying, label: 'Virgen' },
+  { path: '/puerto', icon: faRoadBridge, label: 'Puerto' },
+  { path: '/antorcha', icon: faFireFlameCurved, label: 'Antorcha' },
 
 ];
 

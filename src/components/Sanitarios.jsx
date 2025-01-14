@@ -47,6 +47,26 @@ import foto42 from "/sanitarios/42.png";
 import foto43 from "/sanitarios/43.png";
 import foto44 from "/sanitarios/44.png";
 import foto45 from "/sanitarios/45.png";
+import foto46 from "/sanitarios/46.png";
+import foto47 from "/sanitarios/47.png";
+import foto48 from "/sanitarios/48.jpg";
+import foto49 from "/sanitarios/49.png";
+import foto50 from "/sanitarios/50.png";
+import foto51 from "/sanitarios/51.png";
+import foto52 from "/sanitarios/52.png";
+import foto53 from "/sanitarios/53.png";
+import foto54 from "/sanitarios/54.jpg";
+import foto55 from "/sanitarios/55.png";
+import foto56 from "/sanitarios/56.png";
+import foto57 from "/sanitarios/57.png";
+import foto58 from "/sanitarios/58.png";
+import foto59 from "/sanitarios/59.png";
+import foto60 from "/sanitarios/60.png";
+import foto61 from "/sanitarios/61.jpg";
+import foto62 from "/sanitarios/62.png";
+import foto63 from "/sanitarios/63.png";
+import foto64 from "/sanitarios/64.png";
+import foto65 from "/sanitarios/65.png";
 
 import "./Sanitarios.css";
 
@@ -419,7 +439,6 @@ function Sanitarios() {
           </button>
         </div>
       </div>
-
       <div>
         <hr></hr>
         <p>
@@ -526,6 +545,46 @@ function Sanitarios() {
         <img src={foto44} className="foto" />
         <p>Corte de caja, Lunes 18 de noviembre de 2024.</p>
         <img src={foto45} className="foto" />
+        <p>Recaudacion de la semana del 18 de noviembre de 2024.</p>
+        <img src={foto46} className="foto" />
+        <p>Corte de caja, Lunes 25 de noviembre de 2024.</p>
+        <img src={foto47} className="foto" />
+        <p>Ticket cloralex, pinol, pastillas y bolsas. Viernes 29 de noviembre de 2024.</p>
+        <img src={foto48} className="foto" />
+        <p>Compra de productos de limpieza, Viernes 29 de noviembre de 2024.</p>
+        <img src={foto49} className="foto" />
+        <p>Recaudacion de la semana del 25 de noviembre de 2024.</p>
+        <img src={foto50} className="foto" />
+        <p>Corte de caja, Martes 03 de diciembre de 2024.</p>
+        <img src={foto51} className="foto" />
+        <p>Recaudacion de la semana del 02 de diciembre de 2024.</p>
+        <img src={foto52} className="foto" />
+        <p>Corte de caja, Lunes 09 de diciembre de 2024.</p>
+        <img src={foto53} className="foto" />
+        <p>Compra de productos de limpieza, Viernes 13 de diciembre de 2024.</p>
+        <img src={foto54} className="foto" />
+        <p>Recaudacion de la semana del 09 de diciembre de 2024.</p>
+        <img src={foto55} className="foto" />
+        <p>Corte de caja, Lunes 16 de diciembre de 2024.</p>
+        <img src={foto56} className="foto" />
+        <p>Recaudacion de la semana del 16 de diciembre de 2024.</p>
+        <img src={foto57} className="foto" />
+        <p>Corte de caja, Lunes 23 de diciembre de 2024.</p>
+        <img src={foto58} className="foto" />
+        <p>Recaudacion de la semana del 23 de diciembre de 2024.</p>
+        <img src={foto59} className="foto" />
+        <p>Corte de caja, Lunes 30 de diciembre de 2024.</p>
+        <img src={foto60} className="foto" />
+        <p>Ticket salvo pure y pastillas flash. Viernes 03 de enero de 2025.</p>
+        <img src={foto61} className="foto" />
+        <p>Recaudacion de la semana del 30 de diciembre de 2024.</p>
+        <img src={foto62} className="foto" />
+        <p>Corte de caja, Lunes 06 de enero de 2025.</p>
+        <img src={foto63} className="foto" />
+        <p>Recaudacion de la semana del 06 de enero de 2025.</p>
+        <img src={foto64} className="foto" />
+        <p>Corte de caja, Lunes 13 de enero de 2025.</p>
+        <img src={foto65} className="foto" />
       </div>
     </div>
   );
